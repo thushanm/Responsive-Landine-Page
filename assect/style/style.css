@@ -1,7 +1,8 @@
 body{
     padding: 0;
     margin: 0;
-
+height: 100vh;
+    width: 100vw;
 
 }
 header{
@@ -15,6 +16,7 @@ header{
 height: auto;
     object-fit: cover;
     margin-right:5px ;
+    display: block;
 
  }
 header>h1{
@@ -56,4 +58,45 @@ main {
 
 section {
     margin-bottom: 50px;
+}
+.mainSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background:#f5f2e6;
+    padding: 50px;
+
+
+}
+.coffee_Div{
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+    width: 45%;
+
+}
+.coffee_Div img{
+    width: 30%;
+    margin-right: 20px;
+
+}
+.coffee_Dis{
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+}
+.coffee_Dis h2,
+.coffee_Dis h3{
+    font-family: 'Lato',sans-serif;
+    margin-bottom: 5px;
+
+}
+.coffee_Dis h2{
+    font-size: 1.6em;
+}
+.coffee_Dis h3{
+    font-size: 1em;
+    color: #777 ;
+    font-weight: bold;
 }
